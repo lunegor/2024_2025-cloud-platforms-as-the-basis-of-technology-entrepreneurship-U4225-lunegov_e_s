@@ -19,6 +19,25 @@ Date of finished:
 <img width="605" height="177" alt="image" src="https://github.com/user-attachments/assets/0904ae0d-e86e-4002-a465-102894ff4ce5" />
 <img width="1424" height="477" alt="image" src="https://github.com/user-attachments/assets/64c69cec-1759-4c57-8124-efdd061a5854" />  
 
-4.
+4. Создал папку и переместил туда файлы:  
+<img width="604" height="300" alt="image" src="https://github.com/user-attachments/assets/2563c892-9506-4164-9793-85328f755014" />
+<img width="351" height="296" alt="image" src="https://github.com/user-attachments/assets/32b02cf2-929b-41c5-80a5-09f20d52074f" />
+<img width="588" height="378" alt="image" src="https://github.com/user-attachments/assets/158e720e-0983-42ee-a50c-108ab090aed5" />
+
+5. Изменил права доступа (allUsers и выданные роли позволяют сделать баскет публичным для всех в интернете и их можно было прочитать по ссылке): 
+<img width="684" height="193" alt="image" src="https://github.com/user-attachments/assets/4b11daf5-dfa3-4816-81b1-859606d2d5e4" />  
+<img width="773" height="563" alt="image" src="https://github.com/user-attachments/assets/9912f40f-ed47-4a26-b600-a3076e3c8a96" />
+<img width="836" height="904" alt="image" src="https://github.com/user-attachments/assets/2803cc0d-1dde-46d1-98c9-952238770648" />
+
+6. Проверяем, что все работает и копируем публичный URL картинки:
+<img width="344" height="495" alt="image" src="https://github.com/user-attachments/assets/47430caa-cc88-4564-bba8-7a15f3ac0825" />
+<img width="1472" height="976" alt="image" src="https://github.com/user-attachments/assets/a3fd0f38-52cd-42d1-a10c-809c3058ebcc" />
+
+7. Убедившись, что все работает, удаляем созданный bucket.
+
+
+
+
+
 
 
