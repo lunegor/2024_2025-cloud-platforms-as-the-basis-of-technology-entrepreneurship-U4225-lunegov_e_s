@@ -31,7 +31,8 @@ Date of finished:
 
 **Тестирование партнерами**  
 На данном этапе разработки мы добавим отслеживание ошибок, а перед запуском Cloud Run'a используем Cloud Load Balancing для распределения нагрузки
-<img width="804" height="211" alt="image" src="https://github.com/user-attachments/assets/cc0d4617-1f58-4404-8e60-db6567cea753" />
+<img width="786" height="165" alt="image" src="https://github.com/user-attachments/assets/e8747947-0577-4023-8d47-5a8752dcef8b" />
+
 
 Стоимость:  
 <img width="843" height="358" alt="image" src="https://github.com/user-attachments/assets/c791957d-b3e8-4d31-9833-0a1e1d906eae" />
@@ -41,11 +42,14 @@ Date of finished:
 - Cloud Monitoring необходим для анализа работы модели под нагрузкой
 
 **Продовое решение**  
-Этапы:  
-1.
+На этом этапе мы заменяем наш замечательный Cloud Run на более мощный Google Kubernetes Engine. Также меняем легкий Firestore на более серьезный Cloud SQL. Ну и начинаем отслеживать логи через Cloud Logging.
+<img width="558" height="202" alt="image" src="https://github.com/user-attachments/assets/d886a73f-85a6-458f-86d8-a4bd64e36a99" />
+
 
 Стоимость:  
 <img width="842" height="359" alt="image" src="https://github.com/user-attachments/assets/d5d90f23-d6e3-4519-90e0-97a230bd761a" />
 
 Обоснование:
-
+- GKE обеспечивает стабильную масштабируемость и высокую отказоустойчивость
+- Cloud SQL — надежное решение для хранения метаданных и результатов (в том числе при большом объеме данных)
+- Cloud Logging и Monitoring — обязательны для анализа, SLA и безопасности
